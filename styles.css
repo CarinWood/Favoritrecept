@@ -78,9 +78,26 @@ p {
     margin-top: 20px;
 }
 
+.plate-image {
+    width: 50px;
+}
+
+.happy-dinner {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h4 {
+    margin-left: 20px;
+}
+
 article {
     width: 400px;
 }
+
+
 
 footer {
     margin-top: 30px;
