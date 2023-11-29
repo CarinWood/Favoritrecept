@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "work sans";
+    src: url('./assets/fonts/WorkSans-VariableFont_wght.ttf');
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: "work sans";
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .header-image {
     width: 600px;
     height: 400px;
@@ -12,5 +26,11 @@
 
 section {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width: 80%
 }
+
+article {
+    width: 400px;
+}
+
